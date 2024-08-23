@@ -6,4 +6,4 @@ int_lot= 13.3
 pound= 32*13.3*p
 talent= 20*32*13.3*t
 lot= 13.3*l
-print(f"The weight in modern units:{(pound+talent+lot)/1000:8f}kilogram and {(pound+talent+lot)/1000:.5f}grams" )
+print(f"The weight in modern units:{int((pound+talent+lot)/1000)}kilogram and {(pound+talent+lot)%1000:.3f}grams")
