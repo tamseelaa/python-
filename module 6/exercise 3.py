@@ -9,5 +9,5 @@ while True:
         break
     elif gas>=1:
         gallon(gas)
-        gas = int(input("enter how many gallon of gasoline you have ,also to end program enter negative value"))
+        gas = int(input("enter how many gallon of gasoline you have ,Also to end program enter negative value"))
 

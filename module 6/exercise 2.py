@@ -6,4 +6,4 @@ def dice_side(n):
 ans = 0
 while ans != user:
    ans = dice_side(user)
-   print(f"Rolled: {ans}")
+   print(f"Rolled: {ans} ")

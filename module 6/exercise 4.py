@@ -4,5 +4,5 @@ def add(a):
     return s
 
 s=add(List)
-print(f"{List}\n sum of values are: {s}")
+print(f"{List}\nsum of values are: {s}")
 

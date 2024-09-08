@@ -14,4 +14,4 @@ if price_1 < price_2:
 elif price1 > price_2:
     print("The 2nd pizza gives better value for money.")
 else:
-    print("Both pizzas give the same value for money.")
+    print("Both of the pizzas give the same value for money.")
