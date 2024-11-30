@@ -6,13 +6,14 @@ app = Flask(__name__)
 def get_airport_info(icao_code):
     conn = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='Shahid75',
+        user='your username',
+        password='your password',
         database='flight_game',
         autocommit=True,
         collation='utf8mb3_general_ci'
     )
     cursor = conn.cursor()
+
     cursor.execute("SELECT ident, name, municipality FROM airport,game WHERE ident = %s;", (icao_code,))
     data = cursor.fetchone()
     conn.close()

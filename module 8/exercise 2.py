@@ -11,8 +11,8 @@ connection = mysql.connector.connect(
         host='127.0.0.1',
         port=3306,
         database='flight_game',
-        user='root',
-        password='Shahid75',
+        user='your username',
+        password='your password',
         autocommit=True,
         collation='utf8mb3_general_ci'
        )
